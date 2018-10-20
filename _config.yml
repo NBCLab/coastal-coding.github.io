@@ -9,9 +9,6 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
-plugins:
-  - jekyll-maps
-
 # Footer settings
 footer: NiMARE developers
 

@@ -143,6 +143,13 @@ a:focus {
     width: 700px;
 }
 
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
 .intro {
     display: table;
     width: 100%;

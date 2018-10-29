@@ -24,7 +24,6 @@
     <![endif]-->
 
 </head>
-
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
      <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -46,10 +45,13 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#signup">Sign Up</a>
+                        <a class="page-scroll" href="#location">Location</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#accommodations">Accommodations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#signup">Sign Up</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -67,7 +69,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h4 class="brand-heading">Coastal Coding for Reproducible Neuroimaging</h4>
+                        <h1 class="brand-heading">Coastal Coding for Reproducible Neuroimaging</h1>
                         <p class="intro-text">ReproNim+Nipype 2.0 / NiMARE @FIU in Miami<br>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -78,70 +80,162 @@
         </div>
     </header>
 
-        <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About NiMARE</h2>
-                <p>NiMARE (Neuroimaging Meta-Analysis Research Environment) is a new Python package for performing analyses using neuroimaging meta-analytic data. Current tools for neuroimaging meta-analyses are spread out across several packages and languages. NiMARE aims to provide a standardized interface for a broad range of algorithms, along with interfaces to open meta-analytic resources like Neurosynth, NeuroVault, and brainspell.</p>
-
-                <h2>About the sprint</h2>
-                <p>The NiMARE coding sprint will be a three-day hackathon in Miami, Florida, at Florida International University's scenic Biscayne Bay campus. The sprint will occur after a three-day Nipype workshop, with a one-day rest period between, in which participants can enjoy Miami.</p>
-                <p>At the sprint, we’ll be working to design a standard for representing meta-analytic data, to add implementations for new tools, and to improve the documentation and test coverage of the existing codebase. Anyone interested in contributing to this new package is welcome to join. Experience with Python or neuroimaging meta-analysis recommended, but not necessary. On the first day of the sprint there will be an overview of neuroimaging meta-analytic methods for beginners.
-                </p>
-            </div>
-        </div>
-    </section>
-
-        <!-- Download Section -->
-    <section id="signup" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Sign Up</h2>
-                    <p>Sign up to attend the sprint <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">here</a>.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <!-- About Section -->
-    <section id="accommodations" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Accommodations</h2>
-                <p>There are hotels nearby.</p>
-            </div>
-        </div>
-    </section>
-
-        <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Questions? Contact us!</p>
-                <p><a href="mailto:alaird@fiu.edu">alaird@fiu.edu</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    
-                    <li>
-                        <a href="https://twitter.com/phyzang" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://github.com/neurostuff/NiMARE" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </section>
+    <!-- About Section -->
+<section id="about" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>10-12 January 2019<br/>ReproNim/Nipype Workshop</h2>
+      <p>
+        The goals of this workshop are two-fold. First, to enable attendees to become familiar with best
+        practices for reproducible analysis from
+        <a href=http://www.reproducibleimaging.org>ReproNim</a>.
+        Second, to learn how to create scalable and re-executable neuroimaging workflows with the upcoming
+        <a href=https://nipype.readthedocs.io/en/latest>Nipype 2.0</a> platform.
+        Advanced users are welcome to learn about the changes and hack with Nipype developers.
+      </p>
+      <h2>14-16 January 2019<br/>NiMARE Code Sprint</h2>
+      <h3>ABOUT NIMARE</h3>
+      <p>
+        NiMARE (Neuroimaging Meta-Analysis Research Environment) is a new Python package for
+        performing analyses using neuroimaging meta-analytic data. Current tools for neuroimaging
+        meta-analyses are spread out across several packages and languages. NiMARE aims to provide a
+        standardized interface for a broad range of algorithms, along with interfaces to open
+        meta-analytic resources like <a href=http://neurosynth.org>Neurosynth</a>,
+        <a href=https://neurovault.org>NeuroVault</a>, and
+        <a href=https://brainspell.herokuapp.com>brainspell</a>.
+      </p>
+      <h3>ABOUT THE SPRINT</h3>
+      <p>
+        The three-day NiMARE coding sprint will occur after the Nipype workshop, with a one-day rest
+        period between, in which participants can enjoy Miami. At the sprint, we’ll be working to design
+        a standard for representing meta-analytic data, to add implementations for new tools, and to
+        improve the documentation and test coverage of the existing codebase. Anyone interested in
+        contributing to this new package is welcome to join. Experience with Python or neuroimaging
+        meta-analysis recommended, but not necessary.
+      </p>
+    </div>
+  </div>
+</section>
 
     <!-- Map Section -->
-<a href="https://goo.gl/maps/rMFk7aUYtVQ2">
-  <img src="img/bbc-map.png" title="Biscayne Bay campus" class="center" />
-</a>
+<section id="location" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Location</h2>
+      <p>
+        Coastal Coding 2019 will be hosted at the scenic
+        <a href=https://www.fiu.edu/locations/bbc/index.html>Biscayne Bay Campus (BBC)</a>
+        of <a href=https://www.fiu.edu>Florida International University (FIU)</a>,
+        located at 3000 NE 151 st in Miami, FL, USA.
+      </p>
+      <p>
+        FIU’s BBC is located 17 miles from the Miami International Airport (MIA)
+        or 19 miles from the Fort Lauderdale-Hollywood International Airport (FLL).
+      </p>
+      <p>
+        The events will be held in the Wolfe University Center, WUC 155.
+      </p>
+      <a href="https://goo.gl/maps/rMFk7aUYtVQ2">
+        <img src="img/bbc-map.png" title="Biscayne Bay campus" class="center" />
+      </a>
+      <br/>
+      <p>
+        January weather in Miami is simply spectacular and an excellent choice for a winter getaway.
+        This is our coolest and driest time of the year, with lots of sunshine and clear skies. Average
+        highs are 76 degrees F (25 degrees C) and average lows are 60 degrees F (16 degrees C). UV
+        levels will be high so bring plenty of sunscreen.
+      </p>
+      <p>
+        FIU’s BBC is located right on Biscayne Bay, and offers
+        <a href=https://studentaffairs.fiu.edu/health-and-fitness/recreation/bbc/outdoor-adventure-x/index.php>many outdoor recreational opportunities</a>,
+        an
+        <a href=https://studentaffairs.fiu.edu/health-and-fitness/recreation/bbc/aquatic-center/index.php>Aquatic Center</a>,
+        and a
+        <a href=https://studentaffairs.fiu.edu/health-and-fitness/recreation/bbc/fitness-center/index.php>Fitness Center</a>.
+        The BBC is adjacent to the
+        <a href=https://www.floridastateparks.org/parks-and-trails/oleta-river-state-park>Oleta River State Park</a>,
+        a gorgeous
+        natural oasis of hardwood hammocks and mangroves. Visitors can enjoy hiking, off-road
+        bicycling trails, or paddling along lush mangrove forests on the Oleta River. Kayak and
+        SUP (paddleboard) rentals are available through the
+        <a href=https://www.bluemoonoutdoor.com>Blue Moon Outdoor Center</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- About Section -->
+<section id="accommodations" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Accommodations</h2>
+      <p>
+        Attendees interested in staying on the beach may want to consider hotels
+        just south of the BBC, in Bal Harbour and Surfside, or just north of the
+        BBC in Sunny Isles.
+      </p>
+
+      <h2>Hotel Recommendations</h2>
+      <h3>Hotel Option #1: <a href=https://www.grandbeachhotel.com/hotels/surfside>Grand Beach Hotel</a></h3>
+      <p>
+        (from $281/night Oceanfront, from $207/night West)
+        <br/>
+        5.7 miles from workshop site
+        <a href="https://goo.gl/maps/rMFk7aUYtVQ2">
+          <img src="img/bbc-map.png" title="Biscayne Bay campus" class="center" />
+        </a>
+      </p>
+
+      <h3>Hotel Option #2: <a href=https://www.bestwestern.com/en_US/book/hotels-in-north-miami/best-western-plus-windsor-inn/propertyCode.10349.html>Best Western Plus Windsor Inn</a></h3>
+      <p>
+        (from $166/night)
+        <br/>
+        3.4 miles from workshop site
+        <a href="https://goo.gl/maps/rMFk7aUYtVQ2">
+          <img src="img/bbc-map.png" title="Biscayne Bay campus" class="center" />
+        </a>
+      </p>
+      <p>
+        Transportation between the FIU BBC and the recommended hotels will not be provided.
+        Attendees are encouraged to factor these additional costs into their travel budget. Both Lyft
+        and Uber are available in the greater Miami metropolitan area.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- Download Section -->
+<section id="signup" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Sign Up</h2>
+      <p>Sign up to attend the sprint <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">here</a>.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Contact</h2>
+            <p>Questions? Contact us!</p>
+            <p><a href="mailto:alaird@fiu.edu">alaird@fiu.edu</a>
+            </p>
+            <ul class="list-inline banner-social-buttons">
+                
+                <li>
+                    <a href="https://twitter.com/phyzang" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/neurostuff/NiMARE" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
 
         <!-- Footer -->
     <footer>
